@@ -16,6 +16,9 @@ build:
 	make test
 	make lint
 
-run:
+runb:
 	make build
 	python3 ./src/dotp.py "[1,2,3]" "[5,5,6]"
+
+run:
+    python3 ./src/dotp.py "[1,2,3]" "[5,5,6]"
